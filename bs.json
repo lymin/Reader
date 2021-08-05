@@ -175,5 +175,27 @@
 			"book_status_pos":	0,
 			"book_status_xpath":	"",
 			"book_status_keyword":	""
+		},{
+			"title":	"爱下书",
+			"host":	"https://www.aixiawx.com",
+			"query_url":	"https://www.aixiawx.com/modules/article/search.php",
+			"query_method":	1,
+			"query_params":	"searchkey=%s&searchtype=articlename",
+			"query_charset":	1,
+			"book_name_xpath":	"//*[@id=\"content\"]/table/tr[position()>1]/td[1]/a",
+			"book_mainpage_xpath":	"//*[@id=\"content\"]/table/tr[position()>1]/td[1]/a/@href",
+			"book_author_xpath":	"//*[@id=\"content\"]/table/tr[position()>1]/td[3]",
+			"enable_chapter_page":	0,
+			"chapter_page_xpath":	"//a[@class='catalogbtn']/@href",
+			"chapter_title_xpath":	"//*[@id=\"list\"]/dl/dd[position()>9]/a",
+			"chapter_url_xpath":	"//*[@id=\"list\"]/dl/dd[position()>9]/a/@href",
+			"content_xpath":	"//*[@id=\"content\"]",
+			"enable_content_next":	0,
+			"content_next_url_xpath":	"/html/body/div[3]/div[1]/div[4]/a[4]/@href",
+			"content_next_keyword_xpath":	"/html/body/div[3]/div[1]/div[4]/a[4]",
+			"content_next_keyword":	"下一页",
+			"book_status_pos":	0,
+			"book_status_xpath":	"",
+			"book_status_keyword":	""
 		}]
 }
